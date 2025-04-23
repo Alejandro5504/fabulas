@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+RO:wght@100..400&display=swap');
+
+.fontdiner-swanky-regular {
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.uniquifier {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+html {
+
+
+background-image: url(../img/capturas.jpg);
+
+
+}
+
+body {
+
+    width: 90%;
+    margin: 0 auto;
+    color: azure;
+    text-align: justify; 
+    padding: 1em;
+    opacity: 0.7;
+   
+}
+
+a {
+
+text-decoration:none;
+
+}
+
+article>h2 {
+   
+    background-color: #fafafa;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em; 
+    text-shadow: 2px 2px 2px #1e00ff, 2px 2px 2px rgb(55, 0, 255); ;
+    height: 50px;
+    font-family: "Fontdiner Swanky", serif;
+    text-align: center;
+    padding: 8px;
+    margin: 1em 20px;
+    border-radius: 6px;
+} 
+
+article>img {
+display: block;
+float: right; /* Coloca la imagen a la derecha y hace que el texto fluya alrededor */         
+width: 150px; 
+height: 150px;
+margin-left: 15px;
+
+}
+
+article>p {
+
+font-size: 18px;
+text-align: justify; 
+text-shadow: 1px 1px 1px #1ece62,1px 1px 1px rgb(30, 206, 98);
+
+}
+
+article>p:first-of-type::first-letter { 
+
+font-family: "Fontdiner Swanky", serif;
+font-size: 3em;
+line-height: 1.5;
+color:white; 
+background-color: #81D8D0; 
+text-shadow: 1px 1px 1px rgb(255, 0, 195); 
+padding: 0 7px;
+float: left; /* Hace que el texto fluya alrededor */
+margin-right: 10px;
+
+} 
+
+article>p:last-of-type::after {
+content:"";
+display:block;
+width:100%; /* Ajusta el tamaño según necesites */
+height: 50px; /* Alto de la imagen separadora */
+background-image: url("../img/divider.png");
+background-repeat: no-repeat;
+background-position: center;
+margin-top: 20px; /* Espacio entre el párrafo y la imagen */
+background-size: contain;
+
+}
+
+address {
+
+display: block;
+
+margin-top: 1em;
+margin-bottom: 1em;
+
+}
+
+.moraleja {
+    width: 80%;                    /* Ancho del 80% */
+    margin: 0 auto;                /* Centra la clase en el contenedor */
+    background-color: rgb(98, 95, 95);     /* Gris oscuro de fondo */
+    color: white;                  /* Color del texto en blanco */
+    border-radius: 12px;           /* Bordes redondeados */
+    padding: 1em;                  /* Espaciado interno */
+    text-align: center;            /* Centra el texto */
+  }
+
+.moraleja::before {
+    content: "Moraleja";           /* Texto que aparecerá antes del contenido */
+    font-family: "Fontdiner Swanky", serif;
+    color: rgb(255, 228, 225);                /* Color de la palabra "Moraleja" en un tono claro */
+    text-shadow: 0.5px 0.5px 0px rgb(242, 193, 209);  /* Sombra en el texto */
+    letter-spacing: 1px;           /* Espaciado entre letras */
+    font-weight: normal;
+    font-size: 1.1em;              /* Tamaño de fuente */
+    display: block;                /* Hace que el texto ocupe toda una línea */
+    text-align: center;            /* Centra el texto */
+    margin-bottom: 5px;            /* Espacio entre el título y el contenido */
+  }
+
+address {
+
+text-align: right;
+color: rgb(250, 250, 250);
+font-size: 28px;
+
+}
